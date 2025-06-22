@@ -1,0 +1,99 @@
+# Archivos y carpetas específicos de Flutter/Dart
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# Archivos IntelliJ
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Archivos Visual Studio Code
+.vscode/
+.classpath
+.project
+.settings/
+
+# Archivos generados por Flutter
+**/*.g.dart
+**/*.freezed.dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.fvm/flutter_sdk
+.packages
+.pub-cache/
+.pub/
+/build/
+pubspec.lock  # Puede incluirse para proyectos de equipo para garantizar la consistencia de dependencias
+
+# Archivos específicos de Android
+/android/.gradle
+/android/captures/
+/android/local.properties
+/android/app/debug
+/android/app/profile
+/android/app/release
+/android/key.properties
+/android/app/.cxx/
+# Archivos de compilación C/C++ de Android
+android/**/.cxx/
+
+# Archivos específicos de iOS
+/ios/Pods/
+/ios/.symlinks/
+/ios/Flutter/App.framework
+/ios/Flutter/Flutter.framework
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/app.flx
+/ios/Flutter/app.zip
+/ios/Flutter/flutter_assets/
+/ios/Flutter/flutter_export_environment.sh
+/ios/ServiceDefinitions.json
+/ios/Runner.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings
+/ios/.generated/
+/ios/build/
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Archivos de cobertura
+coverage/
+.test_coverage.dart
+.test_runner.dart
+
+# Archivo de configuración de Firebase local
+lib/firebase_options_local.dart
+google-services.json
+GoogleService-Info.plist
+
+# Archivos específicos de Mac
+.DS_Store
+
+# Archivos temporales
+*.tmp
+*.temp
+*.bak
+
+# Archivos de configuración local
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Generado por la documentación de Dart
+doc/api/
+
+# Archivos personalizados que no deben subirse
+.aider*
+.windsurfrules/android/app/.cxx/
+android/**/.cxx/
+
+.fake
